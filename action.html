@@ -1,19 +1,75 @@
-<h1><small><xmp><form action> tag</xmp></small></h1>
-<xmp>
-  <form action="form_handler.html">
-    이 text type에 글자를 입력해서 제출하면 제출 완료 화면으로 넘어갑니다.<br>
-    서버나 데이터를 아직 배우지 않는 상태라 여러분이 입력한 텍스트는 수집할 수 없으니 안심하세요.<br>
-    아무 글자나 입력하면 됩니다!<br>
-    <input type="text" name="any text">
-    <input type="submit" name="아무 글자" value="제출">
-  </form>
-</xmp>
+<head>
+<style>
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  h1 {
+    border-bottom:1px solid gray;
+    margin:0;
+  }
+  ol {
+    border-right:1px solid gray;
+    margin:0px;
+    padding:20px;
+  }
+  form {
+    padding:20px;
+  }
+  strong {
+    padding:20px;
+  }
+  h2{
+    margin:0;
+    padding-left:20px;
+  }
+</style>
+</head>
 
-<h1><small>form action 태그 출력화면</small></h1>
-<form action="form_handler.html">
-  이 text type에 글자를 입력해서 제출하면 제출 완료 화면으로 넘어갑니다.<br>
-  서버나 데이터를 아직 배우지 않는 상태라 여러분이 입력한 텍스트는 수집할 수 없으니 안심하세요.<br>
-  아무 글자나 입력하면 됩니다!<br>
-  <input type="text" name="any text">
-  <input type="submit" name="아무 글자" value="제출">
-</form>
+<body>
+    <h1>form practice list</h1>
+    <div id="grid">
+    <ol>
+      <li><a href="form.html">form tag</a></li>
+      <li><a href="input.html">input tag</a></li>
+      <li><a href="type.html">type</a></li>
+      <li><a href="submit.html">submit type</a></li>
+      <li><a href="text areas.html">textarea tag</a></li>
+      <li><a href="radio.html">radio type</a></li>
+      <li><a href="checkbox.html">checkbox type</a></li>
+      <li><a href="select.html">select type</a></li>
+      <li><a href="fieldset.html">fieldset tag</a></li>
+      <li><a href="legend.html">legend tag</a></li>
+      <li><a href="action.html">form action</a></li>
+    </ol>
+      <div>
+      <h2>form action tag</h2>
+      <xmp>
+        <form action="form_handler.html">
+          이 text type에 글자를 입력해서 제출하면 제출 완료 화면으로 넘어갑니다.<br>
+          서버나 데이터를 아직 배우지 않는 상태라 여러분이 입력한 텍스트는 수집할 수 없으니 안심하세요.<br>
+          아무 글자나 입력하면 됩니다!<br>
+          <input type="text" name="any text">
+          <input type="submit" name="아무 글자" value="제출">
+        </form>
+      </xmp>
+
+
+
+      <h2>+ 새 프로젝트 파일</h2>
+      <xmp>
+      Welcome!<br>
+      제 개발일기에 관심을 가져주셔서 감사합니다!
+      </xmp>
+
+      <h2>form action 태그 출력화면</h2>
+      <form action="form_handler.html">
+        이 text type에 글자를 입력해서 제출하면 제출 완료 화면으로 넘어갑니다.<br>
+        서버나 데이터를 아직 배우지 않는 상태라 여러분이 입력한 텍스트는 수집할 수 없으니 안심하세요.<br>
+        아무 글자나 입력하면 됩니다!<br>
+        <input type="text" name="any text">
+        <input type="submit" name="아무 글자" value="제출">
+      </form>
+      </div>
+  </div>
+  </body>
